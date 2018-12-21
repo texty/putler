@@ -209,19 +209,11 @@ body {
 }
 
 .text-wrapper {
-    /*grid-row:1/2;*/
-
     grid-column: 4/5;
-    /*grid-template-columns: 30% auto;*/
     font-size: 1.6em;
 }
 
-/*.hybrid {*/
-    /*grid-row:1/2;*/
-    /*grid-column: 5/6;*/
-/*}*/
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .credits-big {
         display: none;
     }
@@ -280,6 +272,10 @@ body {
         /*background-color: black;*/
         /*padding: 5px 3px;*/
         color: #000;
+    }
+
+    h2 {
+        font-size: 1.5em;
     }
 }
 
@@ -373,7 +369,7 @@ body {
     grid-column: 2/3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .wide-container {
         grid-template-columns: auto 90% auto;
     }
@@ -458,7 +454,7 @@ h4 {
 
 .main-container h2 {
     color: #000;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     padding-bottom: 30px;
 
@@ -528,21 +524,6 @@ h2.color {
     grid-template-rows: auto auto;
 }
 
-/*#row1 {*/
-    /*grid-row: 1/2;*/
-    /*grid-column: 1/-1;*/
-    /*display: grid;*/
-    /*grid-template-columns: auto 15% 90px 45% auto 20%;*/
-/*}*/
-
-/*#row2 {*/
-    /*grid-row: 2/3;*/
-    /*grid-column: 1/-1;*/
-    /*display: grid;*/
-    /*grid-template-columns: auto 15% 90px 45% auto 20%;*/
-/*}*/
-
-/*цитати*/
 
 blockquote {
     /*font-family: Georgia, serif;*/
